@@ -144,4 +144,19 @@ class DropController extends Controller {
 
 		return $monthFolder;
 	}
+
+	/**
+	 * @NoAdminRequired
+	 * @NoCSRFRequired
+	 * @return Http\TemplateResponse
+	 */
+	public function show() {
+		$resp = new Http\TemplateResponse('nextdrop', 'drop');
+
+		\OCP\Util::addScript('nextdrop', 'dist/dropzone');
+		\OCP\Util::addScript('nextdrop', 'drop');
+		\OCP\Util::addStyle('nextdrop', 'drop');
+
+		return $resp;
+	}
 }

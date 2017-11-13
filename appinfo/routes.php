@@ -24,6 +24,11 @@
 return [
 	'routes' => [
 		[
+			'name' => 'drop#show',
+			'url' => '/',
+			'verb' => 'GET',
+		],
+		[
 			'name' => 'drop#upload',
 			'url' => '/drop',
 			'verb' => 'POST',
