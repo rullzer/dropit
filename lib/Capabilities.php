@@ -39,7 +39,16 @@ class Capabilities implements ICapability {
 		return [
 			'nextdrop' => [
 				'enabled' => true,
-				'url' => $this->urlGenerator->linkToRouteAbsolute('nextdrop.drop.upload'),
+				'upload' => [
+					'files' => [
+						'url' => $this->urlGenerator->linkToRouteAbsolute('nextdrop.drop.upload'),
+						'param' => 'data',
+					],
+					'text' => [
+						'url' => $this->urlGenerator->linkToRouteAbsolute('nextdrop.drop.text'),
+						'param' => 'text',
+					],
+				]
 			],
 		];
 	}

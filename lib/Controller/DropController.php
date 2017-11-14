@@ -120,10 +120,10 @@ class DropController extends Controller {
 	 * @NoAdminRequired
 	 * @NoCSRFRequired
 	 *
-	 * @param string txt
+	 * @param string text
 	 * @return JSONResponse
 	 */
-	public function text(string $txt) {
+	public function text(string $text) {
 		$ts = $this->timeFactory->getTime();
 		$dt = new \DateTime();
 		$dt->setTimestamp($ts);
@@ -133,7 +133,7 @@ class DropController extends Controller {
 		$fileName = $dt->format('YmdHis') . '.txt';
 
 		$file = $folder->newFile($fileName);
-		$file->putContent($txt);
+		$file->putContent($text);
 
 		$share = $this->shareManager->newShare();
 		$share->setNode($file);
