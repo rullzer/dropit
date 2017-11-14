@@ -127,22 +127,7 @@ class DropController extends Controller {
 			$nextdropFolder = $userFolder->newFolder('Nextdrop');
 		}
 
-		$y = $dt->format('Y');
-		$m = $dt->format('m');
-
-		try {
-			$yearFolder = $nextdropFolder->get($y);
-		} catch (NotFoundException $e) {
-			$yearFolder = $nextdropFolder->newFolder($y);
-		}
-
-		try {
-			$monthFolder = $yearFolder->get($m);
-		} catch (NotFoundException $e) {
-			$monthFolder = $yearFolder->newFolder($m);
-		}
-
-		return $monthFolder;
+		return $nextdropFolder;
 	}
 
 	/**
