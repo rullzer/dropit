@@ -33,5 +33,10 @@ return [
 			'url' => '/drop',
 			'verb' => 'POST',
 		],
+		[
+			'name' => 'drop#text',
+			'url' => '/text',
+			'verb' => 'POST',
+		],
 	],
 ];

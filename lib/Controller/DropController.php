@@ -81,6 +81,8 @@ class DropController extends Controller {
 	/**
 	 * @NoAdminRequired
 	 * @NoCSRFRequired
+	 *
+	 * @return JSONResponse
 	 */
 	public function upload() {
 		$files = $this->request->files;
@@ -100,6 +102,38 @@ class DropController extends Controller {
 
 		$file = $folder->newFile($fileName);
 		$file->putContent(file_get_contents($drop['tmp_name']));
+
+		$share = $this->shareManager->newShare();
+		$share->setNode($file);
+		$share->setShareType(Share::SHARE_TYPE_LINK);
+		$share->setPermissions(Constants::PERMISSION_READ);
+		$share->setSharedBy($this->userId);
+
+		$share = $this->shareManager->createShare($share);
+
+		return new JSONResponse([
+			'link' => $this->urlGenerator->linkToRouteAbsolute('files_sharing.sharecontroller.showShare', ['token' => $share->getToken()]),
+		]);
+	}
+
+	/**
+	 * @NoAdminRequired
+	 * @NoCSRFRequired
+	 *
+	 * @param string txt
+	 * @return JSONResponse
+	 */
+	public function text(string $txt) {
+		$ts = $this->timeFactory->getTime();
+		$dt = new \DateTime();
+		$dt->setTimestamp($ts);
+
+		$folder = $this->getFolder($dt);
+
+		$fileName = $dt->format('YmdHis') . '.txt';
+
+		$file = $folder->newFile($fileName);
+		$file->putContent($txt);
 
 		$share = $this->shareManager->newShare();
 		$share->setNode($file);
