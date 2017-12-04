@@ -3,12 +3,12 @@
 /** @var $_ array */
 ?>
 
-<h1>Nextdrop</h1>
+<div class="drop-area dz-clickable">Drop your file here to generate a link!</div>
 
-<div class="drop-area dz-clickable" id="drop">Drop your file here to generate a link!</div>
+Link: <input id="url-drop" /><button class="copyButton" data-clipboard-target="#url-drop">Copy</button><br />
 
-<h2>Uploaded</h2>
+<hr />
 
-<ul id="uploads">
-
-</ul>
+<textarea class="text-area" placeholder="write here what you want to drop"></textarea><br />
+<button class="text-submit">Drop text</button><br />
+Link: <input id="url-text" /><button class="copyButton" data-clipboard-target="#url-text">Copy</button><br />

@@ -95,7 +95,7 @@ class DropController extends Controller {
 		$dt = new \DateTime();
 		$dt->setTimestamp($ts);
 
-		$folder = $this->getFolder($dt);
+		$folder = $this->getFolder();
 
 		$drop = array_pop($files);
 		$fileName = $dt->format('YmdHis') . ' - ' . $drop['name'];
@@ -128,7 +128,7 @@ class DropController extends Controller {
 		$dt = new \DateTime();
 		$dt->setTimestamp($ts);
 
-		$folder = $this->getFolder($dt);
+		$folder = $this->getFolder();
 
 		$fileName = $dt->format('YmdHis') . '.txt';
 
@@ -151,7 +151,7 @@ class DropController extends Controller {
 	/**
 	 * @return \OCP\Files\Folder
 	 */
-	private function getFolder(\DateTime $dt) {
+	private function getFolder() {
 		$userFolder = $this->rootFolder->getUserFolder($this->userId);
 
 		//Check for Nextdrop
@@ -162,20 +162,5 @@ class DropController extends Controller {
 		}
 
 		return $nextdropFolder;
-	}
-
-	/**
-	 * @NoAdminRequired
-	 * @NoCSRFRequired
-	 * @return Http\TemplateResponse
-	 */
-	public function show() {
-		$resp = new Http\TemplateResponse('nextdrop', 'drop');
-
-		\OCP\Util::addScript('nextdrop', 'dist/dropzone');
-		\OCP\Util::addScript('nextdrop', 'drop');
-		\OCP\Util::addStyle('nextdrop', 'drop');
-
-		return $resp;
 	}
 }

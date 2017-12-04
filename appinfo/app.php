@@ -22,3 +22,15 @@
  */
 
 $app = new OCA\Nextdrop\AppInfo\Application();
+
+\OCA\Files\App::getNavigationManager()->add(function () {
+	$l = \OC::$server->getL10N('nextdrop');
+	return [
+		'id' => 'nextdrop',
+		'appname' => 'nextdrop',
+		'script' => 'list.php',
+		'order' => 1,
+		'name' => $l->t('Nextdrop'),
+		'classes' => 'pinned',
+	];
+});

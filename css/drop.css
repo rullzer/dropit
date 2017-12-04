@@ -1,12 +1,4 @@
-.app-nextdrop h1 {
-	text-align: center;
-}
-
-.app-nextdrop h2 {
-	text-align: center;
-}
-
-.drop-area {
+#app-content-nextdrop .drop-area {
 	border-radius: 5px;
 	border: 1.5px dashed rgb(84, 84, 84);
 	padding: 30px 8px;
@@ -16,6 +8,17 @@
 }
 
 /* hide dropzone preview */
-.dz-preview {
+#app-content-nextdrop .dz-preview {
 	display: none;
+}
+
+#app-content-nextdrop input {
+	width: 70%;
+}
+
+#app-content-nextdrop .text-area {
+	border-radius: 5px;
+	border: 1.5px dashed rgb(84, 84, 84);
+	min-height: 100px;
+	width: 100%;
 }
