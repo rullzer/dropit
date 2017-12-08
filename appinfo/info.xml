@@ -6,7 +6,7 @@
 	<description>Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it.</description>
 	<licence>AGPL</licence>
 	<author>Roeland Jago Douma</author>
-	<version>0.0.3</version>
+	<version>0.1.0</version>
 	<namespace>DropIt</namespace>
 	<category>social</category>
 	<website>https://github.com/rullzer/dropit</website>
