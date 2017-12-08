@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 	new Dropzone(
-		'#app-content-nextdrop .drop-area', {
+		'#app-content-dropit .drop-area', {
 			progressElement: null,
 			uploadMultiple: false,
 			createImageThumbnails: false,
-			url: OC.generateUrl('apps/nextdrop/drop'),
+			url: OC.generateUrl('apps/dropit/drop'),
 			parallelUploads: 1,
 			paramName: 'data',
 			init: function() {
@@ -16,23 +16,23 @@ $(document).ready(function() {
 
 				});
 				this.on('success', function(file, resp) {
-					$('#app-content-nextdrop #url-drop').val(resp.link);
+					$('#app-content-dropit #url-drop').val(resp.link);
 				});
 			}
 		}
 	);
 
-	new Clipboard('#app-content-nextdrop .copyButton');
+	new Clipboard('#app-content-dropit .copyButton');
 
-	$('#app-content-nextdrop .text-submit').on('click', function() {
+	$('#app-content-dropit .text-submit').on('click', function() {
 		$.ajax(
-			OC.generateUrl('apps/nextdrop/text'),
+			OC.generateUrl('apps/dropit/text'),
 			{
-				data: "text=" + $('#app-content-nextdrop .text-area')[0].value,
+				data: "text=" + $('#app-content-dropit .text-area')[0].value,
 				method: "POST",
 			}
 		).done(function(resp) {
-			$('#app-content-nextdrop #url-text').val(resp.link);
+			$('#app-content-dropit #url-text').val(resp.link);
 		});
 	});
 }

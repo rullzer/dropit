@@ -1,4 +1,4 @@
-#app-content-nextdrop .drop-area {
+#app-content-dropit .drop-area {
 	border-radius: 5px;
 	border: 1.5px dashed rgb(84, 84, 84);
 	padding: 30px 8px;
@@ -8,15 +8,15 @@
 }
 
 /* hide dropzone preview */
-#app-content-nextdrop .dz-preview {
+#app-content-dropit .dz-preview {
 	display: none;
 }
 
-#app-content-nextdrop input {
+#app-content-dropit input {
 	width: 70%;
 }
 
-#app-content-nextdrop .text-area {
+#app-content-dropit .text-area {
 	border-radius: 5px;
 	border: 1.5px dashed rgb(84, 84, 84);
 	min-height: 100px;

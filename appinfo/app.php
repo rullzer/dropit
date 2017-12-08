@@ -21,16 +21,16 @@
  *
  */
 
-$app = new OCA\Nextdrop\AppInfo\Application();
+$app = new OCA\DropIt\AppInfo\Application();
 
 \OCA\Files\App::getNavigationManager()->add(function () {
-	$l = \OC::$server->getL10N('nextdrop');
+	$l = \OC::$server->getL10N('dropit');
 	return [
-		'id' => 'nextdrop',
-		'appname' => 'nextdrop',
+		'id' => 'dropit',
+		'appname' => 'dropit',
 		'script' => 'list.php',
 		'order' => 1,
-		'name' => $l->t('Nextdrop'),
+		'name' => $l->t('DropIt'),
 		'classes' => 'pinned',
 	];
 });

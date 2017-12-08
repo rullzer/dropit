@@ -21,7 +21,7 @@
  *
  */
 
-namespace OCA\Nextdrop\BackgroundJob;
+namespace OCA\DropIt\BackgroundJob;
 
 use OC\BackgroundJob\TimedJob;
 use OCP\AppFramework\Utility\ITimeFactory;
@@ -60,19 +60,19 @@ class CleanUpJob extends TimedJob {
 		$this->userManager->callForSeenUsers(function(IUser $user) use ($now) {
 			$userFolder = $this->rootFolder->getUserFolder($user->getUID());
 
-			// No nextdrop folder, just ignore
-			if (!$userFolder->nodeExists('Nextdrop')) {
+			// No DropIt folder, just ignore
+			if (!$userFolder->nodeExists('DropIt')) {
 				return;
 			}
 
-			$nextDrop = $userFolder->get('Nextdrop');
+			$dropIt = $userFolder->get('DropIt');
 
 			// If it isn't a folder just return
-			if (!($nextDrop instanceof Folder)) {
+			if (!($dropIt instanceof Folder)) {
 				return;
 			}
 
-			$listing = $nextDrop->getDirectoryListing();
+			$listing = $dropIt->getDirectoryListing();
 
 			foreach ($listing as $node) {
 				// Only process files

@@ -20,9 +20,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace OCA\Nextdrop\AppInfo;
+namespace OCA\DropIt\AppInfo;
 
-use OCA\Nextdrop\Capabilities;
+use OCA\DropIt\Capabilities;
 use OCP\AppFramework\App;
 
 class Application extends App {
@@ -30,11 +30,10 @@ class Application extends App {
 	/**
 	 * Application constructor.
 	 *
-	 * @param string $appName
 	 * @param array $urlParams
 	 */
 	public function __construct(array $urlParams = []) {
-		parent::__construct('nextdrop', $urlParams);
+		parent::__construct('dropit', $urlParams);
 
 		$container = $this->getContainer();
 		$container->registerCapability(Capabilities::class);

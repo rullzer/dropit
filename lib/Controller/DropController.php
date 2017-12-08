@@ -21,7 +21,7 @@
  *
  */
 
-namespace OCA\Nextdrop\Controller;
+namespace OCA\DropIt\Controller;
 
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
@@ -61,6 +61,7 @@ class DropController extends Controller {
 	 * @param string $userId
 	 * @param ShareManager $shareManager
 	 * @param ITimeFactory $timeFactory
+	 * @param IURLGenerator $urlGenerator
 	 */
 	public function __construct(string $appName,
 								IRequest $request,
@@ -154,13 +155,13 @@ class DropController extends Controller {
 	private function getFolder() {
 		$userFolder = $this->rootFolder->getUserFolder($this->userId);
 
-		//Check for Nextdrop
+		//Check for DropIt
 		try {
-			$nextdropFolder = $userFolder->get('Nextdrop');
+			$dropItFolder = $userFolder->get('DropIt');
 		} catch (NotFoundException $e) {
-			$nextdropFolder = $userFolder->newFolder('Nextdrop');
+			$dropItFolder = $userFolder->newFolder('DropIt');
 		}
 
-		return $nextdropFolder;
+		return $dropItFolder;
 	}
 }

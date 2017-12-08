@@ -21,7 +21,7 @@
  *
  */
 
-namespace OCA\Nextdrop;
+namespace OCA\DropIt;
 
 use OCP\Capabilities\ICapability;
 use OCP\IURLGenerator;
@@ -29,7 +29,7 @@ use OCP\IURLGenerator;
 class Capabilities implements ICapability {
 
 	/** @var IURLGenerator */
-	var $urlGenerator;
+	private $urlGenerator;
 
 	public function __construct(IURLGenerator $urlGenerator) {
 		$this->urlGenerator = $urlGenerator;
@@ -37,15 +37,15 @@ class Capabilities implements ICapability {
 
 	public function getCapabilities() {
 		return [
-			'nextdrop' => [
+			'dropit' => [
 				'enabled' => true,
 				'upload' => [
 					'files' => [
-						'url' => $this->urlGenerator->linkToRouteAbsolute('nextdrop.drop.upload'),
+						'url' => $this->urlGenerator->linkToRouteAbsolute('dropit.drop.upload'),
 						'param' => 'data',
 					],
 					'text' => [
-						'url' => $this->urlGenerator->linkToRouteAbsolute('nextdrop.drop.text'),
+						'url' => $this->urlGenerator->linkToRouteAbsolute('dropit.drop.text'),
 						'param' => 'text',
 					],
 				]
