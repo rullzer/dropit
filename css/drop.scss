@@ -8,8 +8,15 @@
 }
 
 /* hide dropzone preview */
-#app-content-dropit .dz-preview {
+#app-navigation .dz-preview {
 	display: none;
+}
+
+#app-content-dropit .dz-upload {
+    display: block;
+    background-color: $color-primary;
+    height: 10px;
+    width: 0%;
 }
 
 #app-content-dropit input {
@@ -21,4 +28,9 @@
 	border: 1.5px dashed rgb(84, 84, 84);
 	min-height: 100px;
 	width: 100%;
+}
+
+.nav-icon-dropit,
+.icon-dropit {
+	background-image: url('../img/app-dark.svg');
 }
