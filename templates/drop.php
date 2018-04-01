@@ -15,7 +15,7 @@
 	<button class="text-submit"><?php p($l->t('Drop text')); ?></button>
 </div>
 <div class="url-share">
-	<label><?php p($l->t('Link')); ?></label>
+	<label><?php p($l->t('Link to share')); ?></label>
 	<input id="url-drop" />
 	<span class="copyButton icon-clippy" data-clipboard-target="#url-drop" title="<?php p($l->t('Copy')); ?>"></span>
 </div>

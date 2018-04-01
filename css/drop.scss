@@ -13,10 +13,6 @@ $containerMargin: 20px;
 		margin: $containerMargin;
 	}
 
-	input {
-		width: 70%;
-	}
-
 	.drop-area {
 		padding: 30px 8px;
 		text-align: center;
@@ -91,9 +87,18 @@ $containerMargin: 20px;
 		margin: $containerMargin;
 		margin-top: 0;
 
+		input {
+			max-width: 400px;
+			width: calc(100% - 40px);
+		}
+
 		.icon-clippy {
 			display: inline-block;
 			background-size: 16px 16px;
+			margin-left: -30px;
+			position: relative;
+			top: 2px;
+			cursor: pointer;
 		}
 	}
 }
