@@ -3,8 +3,8 @@
 /** @var $_ array */
 ?>
 <div class="drop-area dz-clickable">
-	<div class="icon-download"></div>
-	<p><?php p($l->t('Drop your file here to generate a link')); ?></p>
+	<div class="icon-download dz-message"></div>
+	<p class="dz-clickable dz-message"><?php p($l->t('Drop your file here to generate a link')); ?></p>
 </div>
 <div class="drop-text">
 	<div class="hint">

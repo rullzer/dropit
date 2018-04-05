@@ -5,6 +5,10 @@ $containerMargin: 20px;
 	flex-direction: column;
 	height: 100%;
 
+	&.hidden {
+		display: none;
+	}
+
 	.drop-area,
 	.text-area, .text-area:hover {
 		border-radius: 5px;
@@ -17,6 +21,7 @@ $containerMargin: 20px;
 		padding: 30px 8px;
 		text-align: center;
 		cursor: pointer;
+		z-index: 2;
 
 		.icon-download {
 			background-size: 32px 32px;
@@ -25,9 +30,11 @@ $containerMargin: 20px;
 			margin: auto;
 			margin-bottom: 10px;
 			opacity: .5;
+			z-index: 1;
 		}
 		p {
 			opacity: .5;
+			z-index: 1;
 		}
 		.dz-upload {
 			display: block;

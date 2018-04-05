@@ -7,6 +7,7 @@ $(document).ready(function() {
 			url: OC.generateUrl('apps/dropit/drop'),
 			parallelUploads: 1,
 			paramName: 'data',
+			clickable: ['.drop-area', '.drop-area .dz-clickable'],
 			init: function() {
 				var self = this;
 				this.on('drop', function() {
