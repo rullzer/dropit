@@ -28,6 +28,7 @@ $app = new OCA\DropIt\AppInfo\Application();
 	return [
 		'id' => 'dropit',
 		'appname' => 'dropit',
+		'icon' => 'dropit',
 		'script' => 'list.php',
 		'order' => 1,
 		'name' => $l->t('DropIt'),

@@ -2,13 +2,20 @@
 /** @var $l \OCP\IL10N */
 /** @var $_ array */
 ?>
-
-<div class="drop-area dz-clickable">Drop your file here to generate a link!</div>
-
-Link: <input id="url-drop" /><button class="copyButton" data-clipboard-target="#url-drop">Copy</button><br />
-
-<hr />
-
-<textarea class="text-area" placeholder="write here what you want to drop"></textarea><br />
-<button class="text-submit">Drop text</button><br />
-Link: <input id="url-text" /><button class="copyButton" data-clipboard-target="#url-text">Copy</button><br />
+<div class="drop-area dz-clickable">
+	<div class="icon-download dz-message"></div>
+	<p class="dz-clickable dz-message"><?php p($l->t('Drop your file here to generate a link')); ?></p>
+</div>
+<div class="drop-text">
+	<div class="hint">
+		<div class="icon-filetype-text"></div>
+		<p><?php p($l->t('Write here what you want to drop')); ?></p>
+	</div>
+	<textarea class="text-area" placeholder="<?php p($l->t('')); ?>"></textarea>
+	<button class="text-submit"><?php p($l->t('Drop text')); ?></button>
+</div>
+<div class="url-share">
+	<label><?php p($l->t('Link to share')); ?></label>
+	<input id="url-drop" />
+	<span class="copyButton icon-clippy" data-clipboard-target="#url-drop" title="<?php p($l->t('Copy')); ?>"></span>
+</div>
