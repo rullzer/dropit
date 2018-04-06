@@ -28,7 +28,7 @@ $(document).ready(function() {
 		$.ajax(
 			OC.generateUrl('apps/dropit/text'),
 			{
-				data: "text=" + $('#app-content-dropit .text-area')[0].value,
+				data: {text: $('#app-content-dropit .text-area')[0].value},
 				method: "POST",
 			}
 		).done(function(resp) {
