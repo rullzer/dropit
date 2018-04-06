@@ -4,11 +4,12 @@
 	<name>DropIt</name>
 	<summary>Quickly share text or files by dropping them to your Nextcloud!</summary>
 	<description>Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it.</description>
-	<licence>AGPL</licence>
-	<author>Roeland Jago Douma</author>
 	<version>0.1.1</version>
+	<licence>agpl</licence>
+	<author>Roeland Jago Douma</author>
 	<namespace>DropIt</namespace>
 	<category>social</category>
+	<category>files</category>
 	<website>https://github.com/rullzer/dropit</website>
 	<bugs>https://github.com/rullzer/dropit/issues</bugs>
 	<repository type="git">https://github.com/rullzer/dropit.git</repository>
