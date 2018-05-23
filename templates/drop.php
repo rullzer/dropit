@@ -11,7 +11,7 @@
 		<div class="icon-filetype-text"></div>
 		<p><?php p($l->t('Write here what you want to drop')); ?></p>
 	</div>
-	<textarea class="text-area" placeholder="<?php p($l->t('')); ?>"></textarea>
+	<textarea class="text-area"></textarea>
 	<button class="text-submit"><?php p($l->t('Drop text')); ?></button>
 </div>
 <div class="url-share">
