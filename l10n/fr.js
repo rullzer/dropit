@@ -1,0 +1,13 @@
+OC.L10N.register(
+    "dropit",
+    {
+    "DropIt" : "DropIt",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Partagez rapidement des textes ou des fichiers en les faisant glisser dans votre Nextcloud !",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Il suffit de déposer rapidement du texte et des données dans votre Nextcloud. Pour ces moments-là, vous voulez simplement partager un fichier, mais vous ne vous souciez pas de savoir où le stocker.",
+    "Drop your file here to generate a link" : "Déposez votre fichier ici pour générer un lien",
+    "Write here what you want to drop" : "Écrivez ici ce que vous voulez déplacer",
+    "Drop text" : "Déplacer le texte",
+    "Link to share" : "Lien de partage",
+    "Copy" : "Copier"
+},
+"nplurals=2; plural=(n > 1);");
