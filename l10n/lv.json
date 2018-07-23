@@ -1,0 +1,11 @@
+{ "translations": {
+    "DropIt" : "MetTo",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Ātri dalies ar teksta datnēm iemetot tos savā Nextcloud!",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Vienkārši ātri iemet tekstu un datus savā Nextcloud. Tiem brīžiem kad tu vienkārši gribi dalīties ar datni neuztraucoties par to, kur tā tiek glabāta. ",
+    "Drop your file here to generate a link" : "Iemet savu datni šeit lai izveidotu linku",
+    "Write here what you want to drop" : "Šeit uzraksti ko tu gribi iemest",
+    "Drop text" : "Iemest tekstu",
+    "Link to share" : "Links ar ko dalīties",
+    "Copy" : "Kopēt"
+},"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
+}
