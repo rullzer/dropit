@@ -1,9 +1,9 @@
 { "translations": {
     "DropIt" : "DropIt",
-    "Quickly share text or files by dropping them to your Nextcloud!" : "Del tekst eller filer raskt ved å dra de inn i Nextcloud!",
-    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Del tekst eller filer raskt til din Nextcloud. For de gangnen du bare vil dele en fil men ikke bryr deg om hvor den lagres",
-    "Drop your file here to generate a link" : "Slipp her for å generere en lenke",
-    "Write here what you want to drop" : "Skriv inn det du ønsker å dele raskt",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Rask deling av tekst eller filer ved å slippe dem til Nextcloud!",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Bare slipp tekst og data raskt til Nextcloud. For de gangene vil du bare dele en fil, men bryr deg ikke om hvor du skal lagre den.",
+    "Drop your file here to generate a link" : "Slipp filen din her for å generere en link",
+    "Write here what you want to drop" : "Skriv her hva du vil slippe",
     "Drop text" : "Slipp tekst her",
     "Link to share" : "Lenke for deling",
     "Copy" : "Kopier"
