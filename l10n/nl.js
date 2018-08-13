@@ -2,6 +2,8 @@ OC.L10N.register(
     "dropit",
     {
     "DropIt" : "DropIt",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Deel snel tekst of bestanden door ze te slepen naar je Nextcloud!",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Sleep teksten of bestanden naar je Nextcloud. Voor als je een bestand wilt delen, maar niet wilt weten waar je het kwijt kunt.",
     "Drop your file here to generate a link" : "Plaats je bestand hier en genereer een link",
     "Write here what you want to drop" : "Schrijf hier wat je wil",
     "Drop text" : "Plaats text",
