@@ -1,7 +1,7 @@
 OC.L10N.register(
     "dropit",
     {
-    "Drop your file here to generate a link" : "Vilkite savo failą čia, norėdami sukurti nuorodą",
+    "Drop your file here to generate a link" : "Vilkite savo failą čia, norėdami sugeneruoti nuorodą",
     "Link to share" : "Bendrinimo nuoroda",
     "Copy" : "Kopijuoti"
 },
