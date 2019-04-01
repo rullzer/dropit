@@ -12,10 +12,10 @@
 	<category>files</category>
 	<website>https://github.com/rullzer/dropit</website>
 	<bugs>https://github.com/rullzer/dropit/issues</bugs>
-	<repository type="git">https://github.com/rullzer/dropit.git</repository>
+	<repository>https://github.com/rullzer/dropit.git</repository>
 	<dependencies>
-		<php min-version="7.0"/>
-		<nextcloud min-version="13" max-version="15" />
+		<php min-version="7.1"/>
+		<nextcloud min-version="14" max-version="16" />
 	</dependencies>
 
 	<background-jobs>

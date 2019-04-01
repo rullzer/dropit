@@ -12,7 +12,7 @@ $containerMargin: 20px;
 	.drop-area,
 	.text-area, .text-area:hover {
 		border-radius: 5px;
-		border: 1.5px dashed $color-border !important;
+		border: 1.5px dashed var(--color-border) !important;
 		min-height: 100px;
 		margin: $containerMargin;
 	}
@@ -38,7 +38,7 @@ $containerMargin: 20px;
 		}
 		.dz-upload {
 			display: block;
-			background-color: $color-primary;
+			background-color: var(--color-primary);
 			height: 10px;
 		}
 		.dz-success-mark, .dz-error-mark {
@@ -79,7 +79,7 @@ $containerMargin: 20px;
 
 		}
 		.text-area:focus {
-				background-color: $color-main-background !important;
+				background-color: var(--color-main-background) !important;
 		}
 		.text-submit {
 			position: absolute;
@@ -113,5 +113,5 @@ $containerMargin: 20px;
 
 .nav-icon-dropit,
 .icon-dropit {
-	background-image: url('../img/app-dark.svg');
+	@include icon-color('app', 'dropit', $color-black, 1);
 }
