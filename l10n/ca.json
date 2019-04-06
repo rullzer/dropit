@@ -1,0 +1,11 @@
+{ "translations": {
+    "DropIt" : "Deixar-ho anar",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Compartiu ràpidament text o fitxers deixant-los al vostre Nextcloud.",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Deixeu de manera senzilla text i dades ràpidament al vostre Nextcloud. Per a aquells moments que només voleu compartir un fitxer, però no us importa a on emmagatzemar-lo.",
+    "Drop your file here to generate a link" : "Deixeu anar el vostre fitxer aquí per generar un enllaç",
+    "Write here what you want to drop" : "Escriviu aquí el que voleu deixar anar",
+    "Drop text" : "Deixa anar el text",
+    "Link to share" : "Enllaç per compartir",
+    "Copy" : "Copia"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}
