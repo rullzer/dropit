@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	new Dropzone(
+	var dropzone = new Dropzone(
 		'#app-content-dropit .drop-area', {
 			uploadMultiple: false,
 			createImageThumbnails: false,
@@ -24,6 +24,16 @@ $(document).ready(function() {
 			}
 		}
 	);
+
+	document.onpaste = function(event){
+		var items = (event.clipboardData || event.originalEvent.clipboardData).items;
+		for (index in items) {
+			var item = items[index];
+			if (item.kind === 'file') {
+				dropzone.addFile(item.getAsFile())
+			}
+		}
+	}
 
 	new Clipboard('#app-content-dropit .copyButton');
 
