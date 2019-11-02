@@ -7,7 +7,7 @@ OC.L10N.register(
     "Drop your file here to generate a link" : "Bir bağlantı oluşturmak için dosyanızı sürükleyip buraya bırakın",
     "Write here what you want to drop" : "Dosya ile ilgili notlarınızı buraya yazın",
     "Drop text" : "Not Ekle",
-    "Link to share" : "Bağlantıyı Paylaş",
+    "Link to share" : "Paylaşım bağlantısı",
     "Copy" : "Kopyala"
 },
 "nplurals=2; plural=(n > 1);");
