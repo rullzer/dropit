@@ -21,7 +21,7 @@
  *
  */
 
-$app = new OCA\DropIt\AppInfo\Application();
+$app = \OC::$server->query(\OCA\DropIt\AppInfo\Application::class);
 
 \OCA\Files\App::getNavigationManager()->add(function () {
 	$l = \OC::$server->getL10N('dropit');
