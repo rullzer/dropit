@@ -1,4 +1,10 @@
 { "translations": {
+    "DropIt" : "DropIt",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Γρήγορα διαμοιράστε κείμενο ή αρχεία τοποθετώντας τα στο Nextcloud!",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Απλός αποθέστε τα δεδομένα σας στο Nextcloud. Για τις φορές που θέλετε να διαμοιράσετε ένα αρχείο χωρίς να σας νοιάζει που θα αποθηκευτεί.",
+    "Drop your file here to generate a link" : "Αποθέστε το αρχείο σας για την δημιουργία συνδέσμου",
+    "Write here what you want to drop" : "Πληκτρολογήστε εδώ τί θέλετε να αποθέσετε",
+    "Drop text" : "Απόθεση κειμένου",
     "Link to share" : "Σύνδεσμος για διαμοιρασμό",
     "Copy" : "Αντιγραφή"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
