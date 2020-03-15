@@ -4,7 +4,7 @@
 	<name>DropIt</name>
 	<summary>Quickly share text or files by dropping them to your Nextcloud!</summary>
 	<description>Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it.</description>
-	<version>0.3.0</version>
+	<version>0.4.0</version>
 	<licence>agpl</licence>
 	<author>Roeland Jago Douma</author>
 	<namespace>DropIt</namespace>
