@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "DropIt" : "DropIt",
     "Quickly share text or files by dropping them to your Nextcloud!" : "Rannit testennoù ha restroù en ul lakaat anezho en o Nexcmoud !",
-    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Lakit testennoù ha rouadennoù war o Nextcloud. Pa o peus c'houant rannan ur restr ne rit ket forzh eus pelkec'h eo enrollet.",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Lakit testennoù ha roadennoù war o Nextcloud. Pa o peus c'houant rannan ur restr ne rit ket forzh eus pelkec'h eo enrollet.",
     "Drop your file here to generate a link" : "Lakait o restr aman evit krouiñ ul liamm",
     "Write here what you want to drop" : "Skrivit amañ petra o peus c'houant lakat",
     "Drop text" : "Lakit un destenn",
