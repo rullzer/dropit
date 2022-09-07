@@ -1,6 +1,6 @@
 OC.L10N.register(
     "dropit",
     {
-    "Copy" : "Nusxalash"
+    "Copy" : "Copy"
 },
 "nplurals=1; plural=0;");
