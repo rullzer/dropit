@@ -1,7 +1,7 @@
 { "translations": {
     "DropIt" : "DropIt",
     "Quickly share text or files by dropping them to your Nextcloud!" : "Швидко поділіться текстовими повідомленнями або файлами, пересунувши їх до Nextcloud!",
-    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Просто швидко пересуньте текстове повідомлення або файл до вашого Nextcloud. Для випадків коли ви просто бажаєте поширити файл але вам все одно де саме його зберегти.",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Легко переміщуйте текстові повідомлення або файли до вашої хмари у Nextcloud. Зручно, коли потрібно просто поділитися файлом й не має значення, де саме його потрібно зберегти.",
     "Drop your file here to generate a link" : "Пересуньте ваші файли сюди для створення посилання",
     "Write here what you want to drop" : "Зазначте тут, що ви бажаєте пересунути",
     "Drop text" : "Пересуньте текст",
