@@ -1,6 +1,13 @@
 OC.L10N.register(
     "dropit",
     {
+    "DropIt" : "رها کنید",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "به سرعت متن یا فایل‌ها را با قراردادن آنها در Nextcloud خود به اشتراک بگذارید!",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "فقط متن و داده را به سرعت در Nextcloud خود رها کنید. برای آن مواقعی که فقط می خواهید یک فایل را به اشتراک بگذارید، اما اهمیتی به محل ذخیره آن ندارید.",
+    "Drop your file here to generate a link" : "فایل خود را اینجا رها کنید تا پیوند ایجاد شود.",
+    "Write here what you want to drop" : "آنچه را که می خواهید رها کنید اینجا بنویسید.",
+    "Drop text" : "رها کردن متن",
+    "Link to share" : "لینک برای اشتراک گذاری",
     "Copy" : "کپی کردن"
 },
 "nplurals=2; plural=(n > 1);");
