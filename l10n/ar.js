@@ -4,7 +4,7 @@ OC.L10N.register(
     "DropIt" : "أَفْلِته",
     "Quickly share text or files by dropping them to your Nextcloud!" : "مشاركة نصوصك أو ملفاتك بسرعة بمجرد إفلاتها في نكست كلاود",
     "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "فقط أفلت النصوص أو البيانات بسرعة في نكست كلاود. عندها، لا يهمك أين سيتم تخزينها؛ إهتم فقط بمن ستتم معه المشاركة. ",
-    "Drop your file here to generate a link" : "أفلت ملفك هنا ليتم توليد رابط ",
+    "Drop your file here to generate a link" : "قم بإفلات ملفك هنا ليتم توليد رابط ",
     "Write here what you want to drop" : "أكتب هنا ما تريد أن تُفلته",
     "Drop text" : "أفلت نصاً",
     "Link to share" : "رابط المشاركة",
