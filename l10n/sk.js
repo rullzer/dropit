@@ -7,7 +7,7 @@ OC.L10N.register(
     "Drop your file here to generate a link" : "Odkaz vytvoríte pretiahnutím súboru sem",
     "Write here what you want to drop" : "Sem napíšte čo chcete poslať.",
     "Drop text" : "Sprievodný text",
-    "Link to share" : "Odkaz pre sprístupnenie",
+    "Link to share" : "Odkaz pre zdieľanie",
     "Copy" : "Kopírovať"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");
