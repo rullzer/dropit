@@ -1,6 +1,13 @@
 OC.L10N.register(
     "dropit",
     {
+    "DropIt" : "Kidondoshe",
+    "Quickly share text or files by dropping them to your Nextcloud!" : "Shiriki maandishi au faili kwa haraka kwa kuzidondosha kwenye Nextcloud yako!",
+    "Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it." : "Dondosha tu maandishi na data kwa Nextcloud yako. Kwa nyakati hizo unataka tu kushiriki faili lakini hujali mahali pa kuihifadhi.",
+    "Drop your file here to generate a link" : "Dondosha faili yako hapa kuzalisha kiungo",
+    "Write here what you want to drop" : "Andika hapa kitu unachotaka kudondosha",
+    "Drop text" : "Dondosha maandishi",
+    "Link to share" : "Kiungo cha kushirikisha",
     "Copy" : "Nakili"
 },
 "nplurals=2; plural=(n != 1);");
